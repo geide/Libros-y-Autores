@@ -1,4 +1,6 @@
-# Gestión de Libros
+# GERMAN ALVARADO GEIDE MICHELL
+
+# Actividad Gestión de Libros
 
 Este proyecto es un sistema web en PHP para la gestión de libros y autores.
 
@@ -10,21 +12,22 @@ Este proyecto es un sistema web en PHP para la gestión de libros y autores.
 
 ## Instalación
 
-1. **Clona este repositorio** en tu máquina local.
-2. **Importa la base de datos**:
-   - Accede a `http://localhost/phpmyadmin/`.
-   - Crea una nueva base de datos llamada `biblioteca`.
-   - Importa el archivo SQL correspondiente (puedes crear las tablas manualmente si no tienes el archivo `.sql`).
-3. **Configura la conexión** en `includes/database.php` con los datos de tu servidor de base de datos.
-4. **Inicia XAMPP**:
-   - Asegúrate de que Apache y MySQL están corriendo en el panel de control de XAMPP.
-5. **Accede al proyecto**:
-   - Abre `http://localhost/proyecto/index.php` en tu navegador.
+1. **Clone este repositorio** en su máquina local.
+2. **Importe la base de datos**:
+   - Acceda a `http://localhost/phpmyadmin/`.
+   - Cree una nueva base de datos llamada `biblioteca`.
+   - Importe el archivo SQL, este se encuentra en la carpeta sql y lleva como nombre biblioteca.sql
+3. **Configure la conexión** en `includes/database.php` con los datos de su servidor de base de datos.
+4. **Inicie XAMPP**:
+   - Asegúrese de que Apache y MySQL están corriendo en el panel de control de XAMPP.
+5. **Acceda al proyecto**:
+   - Abra `http://localhost/proyecto/index.php` e su navegador.
 
 ## Estructura del Proyecto
 - `index.php`: Página de inicio.
 - `registro.php`: Formulario para registrar libros.
 - `listado.php`: Muestra todos los libros registrados.
-- `editar.php`: Permite editar libros.
-- `eliminar.php`: Elimina libros.
-- `css/styles.css`: Estilos generales.
+- `editar.php`: Permite editar los datos de los libros registrados.
+- `eliminar.php`: Elimina los libros registrados.
+- `contacto.php`: Contacto con la biblioteca.
+- `css/styles.css`: Estil general.
